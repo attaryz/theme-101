@@ -1,13 +1,22 @@
 {
   "name": "theme 101",
+  // background is the background color of the editor.
+  // foreground is the color of the text.
+  // border is the color of the border.
   "colors": {
     // activitybar start
     "activityBar.background": "#0D0106",
     "activityBarBadge.background": "#F26419",
     "activityBar.border": "#F26419",
+    "activityBar.foreground": "#A62639",
     // editor start
     "editor.background": "#0D0106",
-    "editor.foreground": "#02182B",
+    "editor.foreground": "#F26419",
+    // editor.findMatchBackground is the background color of the current search match.
+    // editorInfo.background is the background color of the editor info.
+    "editorInfo.background": "#F26419",
+    "editorInfo.foreground": "#F26419",
+
     "editorGroup.dropBackground": "#0D0106",
     "editor.selectionBackground": "#0D0106",
     "editorGutter.background": "#0D0106",
@@ -18,7 +27,7 @@
     //sidebar start
     "sideBarTitle.foreground": "#F26419",
     "sideBar.background": "#0D0106",
-    "sideBar.foreground": "#eee",
+    "sideBar.foreground": "#F26419",
     "sideBar.border": "#F26419",
 
     "statusBar.background": "#0D0106",
